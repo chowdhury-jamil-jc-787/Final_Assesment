@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+
+    <!--image slider start-->
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="img1.PNG" alt="">
+        </div>
+        <div class="slide">
+          <img src="img1.PNG" alt="">
+        </div>
+        <div class="slide">
+          <img src="img1.PNG" alt="">
+        </div>
+        
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+
+    <div class="feature">
+        <img src="img2.PNG" alt="">
+        <h3><span style="color: #FFFFFF;">Fo</span><span style="color: #2CA05F;">cal</span></h3>
+        <h4>
+            <a href="#">HOME</a>
+            <a href="">ABOUT ME</a>
+            <a href="#">SKILLS</a>
+            <a href="#">RESUME</a>
+            <a href="#">TESTIMONIALS</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#" >CONTACT ME</a>
+        </h4>
+      </div>
+
+      <div class="nabdown">
+          <h1>VALUES</h1>
+          <P>Lorem ipsum dolor sit amet elit. Quasi fuga, laborum quisquam unde vitae temporibus quis! Minima cum est</P>
+      </div>
+      <div class="nabdown1">
+        <h1>GOALS</h1>
+        <P>Lorem ipsum dolor sit amet elit. Quasi fuga, laborum quisquam unde vitae temporibus quis! Minima cum est</P>
+    </div>
+    <div class="nabdown2">
+        <h1>HOBBIES</h1>
+        <P>Lorem ipsum dolor sit amet elit. Quasi fuga, laborum quisquam unde vitae temporibus quis! Minima cum est</P>
+    </div>
+
+
+
+<div class="imgadd">
+    <img src="img3.PNG" alt="">
+    <h1>ABOUT ME </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores nesciunt suscipit. Ut voluptas nesciunt amet tenetur neque repellat dolorem, unde culpa pariatur sed obcaecati esse commodi delectus. Odio, quis.
+        <br><br><br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptates facere odio officiis
+    </p>
+</div>
+<div class="imgaddsub">
+    <img src="img4.PNG" alt="">
+    <h3>WEB DESIGN</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+</div>
+<div class="imgaddsub1">
+    <img src="img5.PNG" alt="">
+    <h3>GRAPHIC DESIGN</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+</div>
+<div class="imgaddsub2">
+    <img src="img6.PNG" alt="">
+    <h3>ONLINE MARKETING</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+</div>
+<div class="imgaddsub3">
+    <img src="img6.PNG" alt="">
+    <h3>SEO</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+</div>
+
+<div class="skils">
+    <h1>MY SKILLS</h1>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  corporis iusto, eveniet in quaerat  dolores tenetur accusamus!
+        <br><br><br>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique aut </BR>
+    </P>
+    <button class="button button1" >CONTACT ME</button>
+</div>
+
+<div class="progress">
+    <label>PHOTOSHOP</label> 
+    <div id="myProgress">
+        <div id="myBar">90%</div>
+      </div><br>
+      <label>ILLUSTRATOR</label> 
+    <div id="myProgress">
+        <div id="myBar1">80%</div>
+      </div>
+      <br>
+      <label>HTML/CSS</label> 
+    <div id="myProgress">
+        <div id="myBar2">90%</div>
+      </div>
+      <br>
+      <label>PHP/MYSQL</label> 
+    <div id="myProgress">
+        <div id="myBar3">90%</div>
+      </div>
+      
+</div>
+<div class="resume">
+    <h1>RESUME</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat excepturi officiis. Fugit, blanditiis expedita dignissimos</p><br>
+    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span><br>
+    <button class="button button1" >DOWNLOAD RESUME</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 3){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
+   
+
+  </body>
+</html>
+      
